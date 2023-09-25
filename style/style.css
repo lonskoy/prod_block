@@ -1,0 +1,46 @@
+.admin {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    border: 1px solid red;
+}
+
+.text_product .type_product .subtype .product_unit {
+    margin-bottom: 10px;
+}
+
+.btn_new_product {
+    margin-top: 20px;
+}
+
+.body_product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    min-height: 1000px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.btnNewProduct {
+    margin-top: 20px;
+}   
+
+.prodBlock {
+    display: table;
+    width: 150px;
+    height: 150px;
+    border: 1px dotted red;
+    padding: 20px 10px 20px 10px;
+}
+
+.imgProd {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.priceProd {
+    color:green;
+    font-style: bold;
+}

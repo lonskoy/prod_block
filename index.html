@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"/>
+    <title>Создание товаров</title>
+</head>
+<body>
+    <div class="main">
+        <div class="admin">    <!--Админская часть-->
+            <div class="fields_box">
+                <form action="#" method="POST" name="new_product" id="new_product">
+    
+                        <label class="label_product_field"> Наименование
+                            <input type="text" class="text_product" name="name"/> 
+                        </label>
+                        <br>
+                        <label class="label_product_field"> Тип
+                            <select class="type_product" name="type_product">
+                                <option>Чай белый</option>
+                                <option>Чай желтый</option>
+                                <option>Чай зеленый</option>
+                                <option>Чай улун</option>
+                                <option>Чай черный</option>
+                                <option>Чай пуэр</option>
+                                <option>Кофе</option>
+                            </select> 
+                        </label>
+                        <br>
+                        <label class="label_product_field"> Тип
+                            <select class="subtype" name="subtype">
+                                <option>Светлый</option>
+                                <option>Темный</option>
+                                <option selected="selected">Ничего</option>
+                            </select> 
+                        </label>
+                        <br>
+                        <label class="label_product_field"> Единица измерения
+                            <select class="product_unit" name="product_unit">
+                                <option>Грамм(ы)</option>
+                                <option>Штук(и)</option>
+                            </select> 
+                        </label>
+                        <br>
+                        <label class="label_product_field"> Цена
+                            <input type="text" class="text_product" name="price"/> 
+                        </label>
+                        <br>
+                        <label class="label_product_field"> Загрузите изображение
+                            <input type="file" name="file" accept=".jpg"/> 
+                        </label>
+                        <button type="submit" id="btnNewProduct" class="btnNewProduct">Создать товар</button> 
+                        
+
+                </form>
+            </div>
+        </div>
+
+        <div class="body_product" id="body_product">   <!--Клиентская часть-->
+
+        </div>
+    </div>
+
+<script type="text/javascript" src="./index.js"></script> 
+</body>
+</html>
